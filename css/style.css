@@ -30,3 +30,24 @@ a:hover{
   height:60px;
   width: 140px;
 }
+.header-left{
+  display: flex;
+  justify-content: flex-end;
+}
+.button{
+  color: white;
+  background-color: rgb(235, 0, 141);
+  padding:10px 18px;
+  border-radius: 20%;
+  font-weight: 600;
+}
+.button:hover{
+  opacity: 0.7;
+  color: white;
+}
+.menu{
+  background-color: blue;
+  width:200px;
+  display: none;
+  position: absolute;
+}
