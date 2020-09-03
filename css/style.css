@@ -6,5 +6,19 @@
 }
 
 @media screen and (max-width: 1080px){
-  
+
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:grey;
+}
+.header-right{
+  display: flex;
+}
+.header-right img{
+  height:130px;
+  width: 250px;
 }
