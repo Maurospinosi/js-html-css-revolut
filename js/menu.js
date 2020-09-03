@@ -1,5 +1,6 @@
 $(document).ready(function(){
-  $(".header_list").click(
+
+  $(".header_list").hover(
     function () {
       $(this).children(".menu").toggle();
     }
