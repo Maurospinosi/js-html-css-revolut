@@ -2,11 +2,11 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
 }
 header{
   height: 100px;
   line-height: 100px;
+  font-family: 'Open Sans', sans-serif;
 }
 li{
   list-style: none;
@@ -51,4 +51,12 @@ a:hover{
   width:200px;
   display: none;
   position: absolute;
+  width: max-content;
+  line-height: 45px;
+}
+.nav li {
+  display: block;
+}
+.nav a:hover{
+  background-color: white;
 }
